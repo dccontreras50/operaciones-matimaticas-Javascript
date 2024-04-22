@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Js</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="barsup">Fecha</div>
+        <div class="titu">
+            <h1>Ejercicios Javascript</h1>
+        </div>
+        <nav>
+            <div class="menu">
+                <a href="#" onclick="ocultar(1);">Ejer 1</a>
+                <a href="#" onclick="ocultar(2);">Ejer 2</a>
+                <a href="#" onclick="ocultar(3);">Ejer 3</a>
+                <a href="#" onclick="ocultar(4);">Ejer 4</a>
+                <a href="#" onclick="ocultar(5);">Ejer 5</a>
+                <a href="#" onclick="ocultar(6);">Ejer 6</a>
+                <a href="#" onclick="ocultar(7);">Ejer 7</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="Eje1" class="disdiv">
+            <h2>Calculadora</h2>
+            <br>
+            <input type="number" id="v1" value="10" placeholder="ingrese un numero"> 
+            <br>
+            <input type="number" id="v2" value="5" placeholder="ingrese otro numero">
+            <br><br>
+            <input type="button" value="Calcular" onclick="calcular();">
+            <div id="textico1" class="textico"></div>
+        </div>
+        <div id="Eje2" class="disdiv">
+            <h2>Ordenamiento</h2>
+            <br>
+            <input type="number" id="o1" value="10" placeholder="ingrese un numero"> 
+            <br>
+            <input type="number" id="o2" value="5" placeholder="ingrese un numero"> 
+            <br>
+            <input type="number" id="o3" value="7" placeholder="ingrese otro numero">
+            <br><br>
+            <input type="button" value="Ordenar" onclick="ordena();">
+            <div id="textico2" class="textico"></div>
+        </div>
+        <div id="Eje3" class="disdiv">
+            <h2>Generar Números</h2>
+            <br>
+            <input type="button" value="Generar" onclick="generar();">
+            <div id="textico3" class="textico"></div>
+        </div>
+
+        <div id="Eje4" class="disdiv">
+            <h2>Serie de fibonacci</h2>
+            <input type="number" id="f1" value="20" placeholder="Ingrese un número">
+            <br><br>
+            <input type="button" value="Generar" onclick="fibonacci();">
+            <div id="textico4" class="textico"></div>
+        </div>
+
+        <div id="Eje5" class="disdiv">
+            <h2>Número Primo</h2>
+            <input type="number" id="np1" value="11" placeholder="Ingrese un número">
+            <br><br>
+            <input type="button" value="Generar" onclick="primo();">
+            <div id="textico5" class="textico"></div>
+        </div>
+
+        <div id="Eje6" class="disdiv">
+            <h2>Generar Numeros Primos</h2>
+            <input type="number" id="np2" value="11" placeholder="Ingrese un número">
+            <br><br>
+            <input type="button" value="Generar" onclick="gprimo();">
+            <div id="textico6" class="textico"></div>
+        </div>
+        <div id="Eje7" class="disdiv">
+            <h2>Figuras</h2>
+            <div>
+                <button class="fig1">Círculo</button>
+                <button class="fig2">Cuadrado</button>
+                <button class="fig3">Rectángulo</button>
+                <button class="fig4">Óvalo</button>
+                <button class="fig5">Triángulo</button>
+                <button class="fig6">Corazón</button>
+                <button class="fig7">Lupa</button>
+                <button class="fig8">Estrella</button>
+            </div>
+            <br><br>
+            <div id="textico7" class="textico"></div>
+        </div>
+
+        
+    </section>
+    <footer>
+        Todos los derechos reservados &copy 2021 Desarrollado por Daniel Contreras
+    </footer>
+    <script type="text/javascript" src="js/codigo.js"></script>
+</body>
+</html>
